@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>TrafficX</h2>
+    <ul>
+      <li>Home</li>
+      <li>Features</li>
+      <li>About</li>
+      <li><button class="btn">Login</button></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Check Live Traffic Instantly 🚦</h1>
+    <p>Get real-time road updates, congestion alerts & route suggestions.</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Enter location...">
+      <button onclick="checkTraffic()">Check</button>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <h2>Features</h2>
+  <div class="cards">
+    <div class="card">📍 Live Traffic</div>
+    <div class="card">🛣 Smart Routes</div>
+    <div class="card">⚠ Alerts</div>
+  </div>
+</section>
+
+<section class="result">
+  <h2>Traffic Status</h2>
+  <p id="output">Enter location to check traffic</p>
+</section>
+
+<footer>
+  <p>© 2026 TrafficX | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
